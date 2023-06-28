@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav a {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #252525;
+    letter-spacing: 1px;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+.atas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffdef;
+    padding-block: 10vh;
+    gap: 2vh;
+}
+
+.image-atas img {
+    width: 75vw;
+}
+
+.deskripsi-atas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding-inline: 15vw;
+}
+
+.deskripsi-atas p {
+    text-align: center;
+}
+
+.deskripsi-atas h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.deskripsi-atas h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.deskripsi-atas p {
+    margin-top: 2vh;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 1rem;
+    color: #4D4D4D;
+}
+
+.deskripsi-atas a {
+    margin-top: 5vh;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    color: #4D4D4D;
+    text-align: center;
+    padding-block: 5px;
+    padding-inline: 20px;
+    background-color: #4D4D4D;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.deskripsi-atas a:hover {
+    text-decoration: underline;
+}
+
+.facilities {
+    background-color: #FAF8F1;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    padding-inline: 10vw;
+}
+
+.judul-facilities {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.judul-facilities h1 {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4D4D4D;
+    border-bottom: 3px solid #4D4D4D;
+}
+
+.facilities-container {
+    display: grid;
+    grid-template-columns: repeat(2,35vw);
+    justify-content: space-between;
+    row-gap: 10vh;
+}
+
+.facilities-container .facilities-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.facilities-container .facilities-cards img {
+    width: 35vw;
+}
+
+.facilities-container .facilities-cards h2 {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 1rem;
+    color: #4D4D4D;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.facilities-container .facilities-cards h1 {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4D4D4D;
+}
+
+.facilities-container .facilities-cards p {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.facilities-container .facilities-cards a {
+    font-family: 'Source Serif Pro', serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.facilities-container .facilities-cards a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-atas {
+    background-color: #F3EEE7;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo-footer img {
+    width: 150px;
+}
+
+.judul-kelompok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul-kelompok h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.judul-kelompok h3 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 1.5rem;
+}
+
+.isi-kelompok {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-inline: 5px;
+    gap: 10px;
+}
+
+.isi-kelompok .nama-kelompok {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.isi-kelompok .nama-kelompok p {
+    font-family: 'Source Serif Pro', serif;
+    padding-block: 5px;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 0;
+}
+
+.isi-kelompok .nim-kelompok {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.isi-kelompok .nim-kelompok p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.footer-bawah {
+    width: 100%;
+    padding-block: 20px;
+    background-color: #3a3a3a;
+}
+
+.footer-bawah h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .deskripsi-atas h2 {
+        font-size: 0.9rem;
+    }
+
+    .deskripsi-atas h1 {
+        font-size: 2rem;
+    }
+
+    .deskripsi-atas p {
+        font-size: 0.9rem;
+        margin-top: 1vh;
+    }
+
+    .deskripsi-atas a {
+        margin-top: 3vh;
+    }
+
+    .judul-facilities {
+        margin-bottom: 5vh;
+    }
+
+    .facilities-container .facilities-cards h2 {
+        font-size: 0.8rem;
+    }
+
+    .facilities-container .facilities-cards h1 {
+        font-size: 1.5rem;
+    }
+
+    .facilities-container .facilities-cards p {
+        font-size: 0.8rem;
+    }
+
+    .judul-kelompok h1 {
+        font-size: 1.8rem;
+    }
+
+    .judul-kelompok h3 {
+        font-size: 1.2rem;
+    }
+
+    .isi-kelompok .nama-kelompok {
+        gap: 5vw;
+    }
+
+    .isi-kelompok .nama-kelompok p {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .isi-kelompok .nim-kelompok {
+        gap: 5vw;
+    }
+
+    .isi-kelompok .nim-kelompok p {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .footer-bawah h1 {
+        font-size: 0.9rem;
+    }
+}

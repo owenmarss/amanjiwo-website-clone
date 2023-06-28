@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav a {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #252525;
+    letter-spacing: 1px;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+.booking-form {
+    background-color: #fdfaf6;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.judul-form h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#form-container {
+    gap: 8vh;
+    background-color: #F3EEE7;
+    padding-inline: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+
+.input-field {
+    gap: 10vw;
+}
+
+.input-field .kiri {
+    gap: 20px;
+}
+
+.kiri-container {
+    gap: 5px;
+}
+
+.kiri-container label {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+}
+
+.kiri-container .input {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.kiri-container .input-select {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.input-field .kanan {
+    gap: 20px;
+}
+
+.kanan-container {
+    gap: 5px;
+}
+
+.kanan-container label {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+}
+
+.kanan .input-number {
+    font-family: 'Source Serif Pro', serif;
+    width: 35%;
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.kanan .input {
+    font-family: 'Source Serif Pro', serif;
+    width: 70%;
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.input-note {
+    padding-block: 5vh;
+    gap: 5px;
+}
+
+.input-note label {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+}
+
+.input-note input {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    width: 100%;
+    padding-top: 5px;
+    padding-inline: 7px;
+    padding-bottom: 150px;
+    border: 1px solid black;
+    /* text-align: center; */
+}
+
+.input-button {
+    margin-top: 20px;
+}
+
+.button-cancel input {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid #FFFFFF;
+    color: #F9F5EB;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+
+.button-cancel input:hover {
+    transform: scale(1.1);
+}
+
+.button-cancel input:active {
+    transform: scale(1.2);
+}
+
+.button-submit input {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #F9F5EB;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+
+.button-submit input:hover {
+    transform: scale(1.1);
+}
+
+.button-submit input:active {
+    transform: scale(1.2);
+}
+
+footer .footer-atas {
+    background-color: #F3EEE7;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo-footer img {
+    width: 150px;
+}
+
+.judul-kelompok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul-kelompok h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.judul-kelompok h3 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 1.5rem;
+}
+
+.isi-kelompok {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-inline: 5px;
+    gap: 10px;
+}
+
+.isi-kelompok .nama-kelompok {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.isi-kelompok .nama-kelompok p {
+    font-family: 'Source Serif Pro', serif;
+    padding-block: 5px;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 0;
+}
+
+.isi-kelompok .nim-kelompok {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.isi-kelompok .nim-kelompok p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.footer-bawah {
+    width: 100%;
+    padding-block: 20px;
+    background-color: #3a3a3a;
+}
+
+.footer-bawah h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    #form-container {
+        gap: 4vh;
+    }
+
+    .judul-kelompok h1 {
+        font-size: 1.8rem;
+    }
+
+    .judul-kelompok h3 {
+        font-size: 1.2rem;
+    }
+
+    .tombol-fix {
+        display: none;
+    }
+
+    .isi-kelompok .nama-kelompok {
+        gap: 5vw;
+    }
+
+    .isi-kelompok .nama-kelompok p {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .isi-kelompok .nim-kelompok {
+        gap: 5vw;
+    }
+
+    .isi-kelompok .nim-kelompok p {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .footer-bawah h1 {
+        font-size: 0.9rem;
+    }
+}

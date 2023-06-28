@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav a {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #252525;
+    letter-spacing: 1px;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+.jenis-kamar {
+    background-color: #FAF8F1;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    padding-inline: 10vw;
+}
+
+.judul-kamar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.judul-kamar h1 {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4D4D4D;
+    border-bottom: 3px solid #4D4D4D;
+}
+
+.room-container {
+    display: grid;
+    grid-template-columns: repeat(2,35vw);
+    justify-content: space-between;
+    row-gap: 10vh;
+}
+
+.room-container .room-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.room-container .room-cards img {
+    width: 35vw;
+}
+
+.room-container .room-cards h2 {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 1.1rem;
+    color: #4D4D4D;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.room-container .room-cards h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4D4D4D;
+}
+
+.room-container .room-cards p {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 1rem;
+    margin-top: 1vh;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.room-container .room-cards a {
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+.room-container .room-cards a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-atas {
+    background-color: #F3EEE7;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo-footer img {
+    width: 150px;
+}
+
+.judul-kelompok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul-kelompok h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.judul-kelompok h3 {
+    font-family: 'Source Serif Pro', serif;
+    color: #4D4D4D;
+    font-size: 1.5rem;
+}
+
+.isi-kelompok {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-inline: 5px;
+    gap: 10px;
+}
+
+.isi-kelompok .nama-kelompok {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.isi-kelompok .nama-kelompok p {
+    font-family: 'Source Serif Pro', serif;
+    padding-block: 5px;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 0;
+}
+
+.isi-kelompok .nim-kelompok {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.isi-kelompok .nim-kelompok p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.footer-bawah {
+    width: 100%;
+    padding-block: 20px;
+    background-color: #3a3a3a;
+}
+
+.footer-bawah h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .jenis-kamar {
+        padding-top: 5vh;
+        padding-bottom: 12vh;
+    }
+
+    .room-container .room-cards h2 {
+        font-size: 0.8rem;
+    }
+
+    .room-container .room-cards h1 {
+        font-size: 1.5rem;
+    }
+
+    .room-container .room-cards p {
+        font-size: 0.8rem;
+    }
+
+    .judul-kelompok h1 {
+        font-size: 1.8rem;
+    }
+
+    .judul-kelompok h3 {
+        font-size: 1.2rem;
+    }
+
+    .isi-kelompok .nama-kelompok {
+        gap: 5vw;
+    }
+
+    .isi-kelompok .nama-kelompok p {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .isi-kelompok .nim-kelompok {
+        gap: 5vw;
+    }
+
+    .isi-kelompok .nim-kelompok p {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+
+    .footer-bawah h1 {
+        font-size: 0.9rem;
+    }
+}
